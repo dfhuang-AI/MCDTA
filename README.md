@@ -20,7 +20,12 @@ MCDTA: A Multi-Dimensional Convolutional Model for Protein-Ligand Affinity with 
 
 [torch_geometric]([PyG Documentation — pytorch_geometric documentation (pytorch-geometric.readthedocs.io)](https://pytorch-geometric.readthedocs.io/en/latest/index.html))==2.1.0
 
+
 ## Example usage
+
+* Due to the protein files are too large for us to upload to the github warehouse. You need to go to the following link to download and copy them to './data/' folder or './example/' folder:
+https://pan.baidu.com/s/1isKa7K0du0EG5Ind_RtJTw   Extracted Code: 5b40
+
 
 ### 1. Use our pre-trained model
 In this section，we provide the test set and two external validation sets data, you can directly conduct the following command to run our pre-trained model and get the results on the sets. 
