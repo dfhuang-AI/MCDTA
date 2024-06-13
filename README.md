@@ -35,7 +35,7 @@ python test_pretrain.py -S XXX
 
 In this section, you must provide .mol2 file of the ligand as well as .pdb file of the protein. We provide an example for data preparation and feature engineering based on the test set.
 
-# (1) Firstly, convert .pdb file into .fasta file by running the following command.
+#### (1) Firstly, convert .pdb file into .fasta file by running the following command.
 
  ```bash
 cd example/
@@ -43,26 +43,26 @@ python pdb_to_fasta.py
 
  ```
 
-# (2) Next, you need to keep ligands that could be properly read and converted into standard SMILES and corresponding proteins. You can get the pdbid of each complex, SMILES of each ligand, and corresponding binding affinity value by running the following command.
+#### (2) Next, you need to keep ligands that could be properly read and converted into standard SMILES and corresponding proteins. You can get the pdbid of each complex, SMILES of each ligand, and corresponding binding affinity value by running the following command.
 
  ```bash
 python canonical_smiles_generation.py
 
  ```
 
-# (3) Then, you need to keep complexes that could generate protein-ligand interaction representations. You can get the valid test set information and protein-ligand interaction grid by running the following command.
+#### (3) Then, you need to keep complexes that could generate protein-ligand interaction representations. You can get the valid test set information and protein-ligand interaction grid by running the following command.
 
  ```bash
 python gridFeaturize.py
 
  ```
-# (4) Then, you can choose to generate protein distance matrix by running the following command.
+#### (4) Then, you can choose to generate protein distance matrix by running the following command.
 
  ```bash
 python pro_graph_feat.py
 
  ```
-# (5) Finally, when all the data is ready, you can copy all feature files into '../data/' and train your own model by running the following command.
+#### (5) Finally, when all the data is ready, you can copy all feature files into '../data/' and train your own model by running the following command.
 
  ```bash
 python ../train.py
