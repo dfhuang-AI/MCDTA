@@ -68,6 +68,7 @@ python pro_graph_feat.py
 #### (5) Finally, when all the data is ready, you can copy all feature files into '../data/' and train your own model by running the following command.
 
  ```bash
-python ../train.py
+cd ..
+python train.py
 
  ```
