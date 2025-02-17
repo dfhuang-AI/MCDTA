@@ -1,6 +1,6 @@
 # MCDTA
 
-MCDTA: A Multi-Dimensional Convolutional Model for Protein-Ligand Affinity Prediction Considering Atom Bonding Information
+MCDTA: A 4D tensor‑enhanced multi‑dimensional convolutional neural network for accurate prediction of protein–ligand binding affinity
 
 ## Requirements
 
